@@ -1,0 +1,44 @@
+.userList
+{
+    list-style: none;
+    text-align: center;
+}
+
+div.avatar
+{
+    text-align: center;  
+}
+
+.avatar img
+{
+    width: 80px;
+    height:80px;
+    
+}
+
+
+p.info
+{
+    font-weight: normal;
+	
+}
+
+div.main
+{
+    text-align: center;
+}
+
+body
+{
+    text-align: center;
+    margin-left: 30%;
+    margin-right: 30%;
+	
+}
+html { 
+        background: url('http://www.cmrstaffreunion.com/uploads/4/8/0/1/4801545/s161668469181152490_p5_i1_w693.jpeg') no-repeat center center fixed; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+}

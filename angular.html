@@ -1,0 +1,35 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.0/angular.min.js"></script>
+    <script src="newreg.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="utf-8">
+    <title>User Avatar Registration</title>
+  </head>
+  <body>
+   
+    <div ng-app="registration" ng-controller="mainControl" class="main">
+      <h1>New User Registration<h1>
+	 
+	
+	  <form name="userInputs" ng-submit="addNew(userInputs)">
+	   
+	    <input placeholder="username" ng-model="userInputs.name"></input>
+	    <input placeholder="avatar URL" ng-model="userInputs.url"></input>
+	    <button type="submit">Add new user</button>
+	  </form>
+
+	  
+	  <ul class="userList">
+	    
+	    <li ng-repeat="user in users">
+	      <avatar user="user" />
+	   
+	    </li>
+	  </ul>
+    </div>
+  </body>
+  </script>
+</html>
